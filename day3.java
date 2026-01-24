@@ -184,7 +184,8 @@ public class day3 {
         // }while(i<=10);
 
         int i=in.nextInt();
-        for(int j=1;j<=3;j++){
+        String length=String.valueOf(i);
+        for(int j=1;j<=length.length();j++){
             System.out.print(i%10);
             i/=10;
 
