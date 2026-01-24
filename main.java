@@ -126,7 +126,9 @@ public class main {
         // float celcius1=(farenheit1-32)*5/9;
         // System.out.println("Celcius="+" "+celcius1);
 
-        System.out.println(0xA+0xB);
+        // System.out.println(0xA+0xB);
+
+       
         
 
 
