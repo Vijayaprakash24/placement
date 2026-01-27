@@ -107,6 +107,6 @@ public class day4{
             }
             System.out.println(" ");
         }
-
+        
     }
 }
