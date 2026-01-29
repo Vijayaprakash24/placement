@@ -202,7 +202,7 @@ public class day5 {
         int a1=a.charAt(0)-'0';
         int a2=b.charAt(0)-'0';
         int d=(a1+a2)%8;
-        System.out.print(da);
+        System.out.print(d);
        
 
     }
