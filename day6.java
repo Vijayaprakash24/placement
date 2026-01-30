@@ -178,23 +178,40 @@ public class day6 {
     //     System.out.println(un);
     
    
-    int[] a={1,2,3,4};
-    int[] b={5,6,7};
-     int[] c1=new int[a.length+b.length];
-    int c=a.length+b.length;
-    int j=0;
-    for(int i=0;i<a.length;i++){
-       c1[i]=a[i];
-    }
+    // int[] a={1,2,3,4};
+    // int[] b={5,6,7};
+    //  int[] c1=new int[a.length+b.length];
+    // int c=a.length+b.length;
+    // int j=0;
+    // for(int i=0;i<a.length;i++){
+    //    c1[i]=a[i];
+    // }
   
-     for(int i=0;i<b.length;i++){
-       c1[a.length+i]=b[i];
+    //  for(int i=0;i<b.length;i++){
+    //    c1[a.length+i]=b[i];
       
+    // }
+    // for(int i=0;i<c;i++){
+    //         System.out.println(c1[i]);
+        // }
+
+
+        int[] a={1,3,3,3,4,3,3,4,4,4,7,8,9,6};
+        int b=3;
+        int co=0;
+          for(int i=0;i<a.length;i++){
+          if(a[i]!=co){
+          for (int j =i+1; j < a.length; j++) {
+            for(int k=0;k<i;k++){
+                    if (a[i] == a[j] && a[k]!=a[i]) {
+                       System.out.println("find"+a[j]);
+                       co=a[j];
+                       break;
+
+                    }}
+                    break;
+                }}
     }
-    for(int i=0;i<c;i++){
-            System.out.println(c1[i]);
-        }
-    
 
 
 
