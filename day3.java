@@ -61,12 +61,13 @@ public class day3 {
         // }
         // System.out.println("Sum of number is:"+" "+sum);
 
-        // System.out.println("Enter the number to find sum of digits:");
-        // String n=in.nextLine();
-        // for(int i=1;i<=10;i++){
-        //     sum=n[i]%10;
-        // }
-        // System.out.println("Sum of number is:"+" "+sum);
+        System.out.println("Enter the number to find sum of digits:");
+        String n=in.nextLine();
+        int sum=0;
+        for(int i=0;i<n.length();i++){
+            sum+=(n.charAt(i)-'0')%10;
+        }
+        System.out.println("Sum of number is:"+" "+sum);
 
         // int count=0;
         // System.out.println("Enter the number to find digits:");
@@ -183,13 +184,13 @@ public class day3 {
         //     i+=2;
         // }while(i<=10);
 
-        int i=in.nextInt();
-        String length=String.valueOf(i);
-        for(int j=1;j<=length.length();j++){
-            System.out.print(i%10);
-            i/=10;
+        // int i=in.nextInt();
+        // String length=String.valueOf(i);
+        // for(int j=1;j<=length.length();j++){
+        //     System.out.print(i%10);
+        //     i/=10;
 
-        }
+        // }
 
 
         
