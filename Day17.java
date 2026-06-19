@@ -75,7 +75,7 @@
 //         last.next=temp;
 //         temp.prev=last;
 //         return head;
-//     }
+//     }    
 
 //     public static void display(Node head){
 //         Node temp=head;

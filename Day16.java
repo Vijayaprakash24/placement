@@ -37,7 +37,7 @@
 //         public static Node insertatend(Node head,int data){
 //             Node temp=new Node(data);
 //             Node last=head;
-//             while(last.next!=null){
+//             while(last.next!=null){  
 //                 last=last.next;
 //             }
 //             last.next=temp;
