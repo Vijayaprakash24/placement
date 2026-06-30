@@ -20,6 +20,7 @@ public class T6 {
         }
         return root;
     }
+    
 static int value=Integer.MIN_VALUE;
 static int count=0;
     static void disp(TreeNode root,int k){
